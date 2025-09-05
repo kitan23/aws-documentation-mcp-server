@@ -44,6 +44,7 @@ SESSION_UUID = str(uuid.uuid4())
 
 mcp = FastMCP(
     'awslabs.aws-documentation-mcp-server',
+    port=8080,  # Use port 8080 instead of default 8000
     instructions="""
     # AWS Documentation MCP Server
 
