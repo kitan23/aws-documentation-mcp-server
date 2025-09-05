@@ -1,0 +1,1 @@
+"""Main module for AWS Documentation MCP Server."""
